@@ -1,11 +1,11 @@
 import { TeamMember, Project, Service, Value } from './types';
-import { 
-  Code2, 
-  Database, 
-  Layout, 
-  Cpu, 
-  Globe, 
-  Layers 
+import {
+  Code2,
+  Database,
+  Layout,
+  Cpu,
+  Globe,
+  Layers
 } from 'lucide-react';
 
 export const TEAM_MEMBERS: TeamMember[] = [
@@ -27,11 +27,6 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: "Full Stack Developer",
     description: "Gerald works across both front-end and back-end systems, supporting application logic, database integration, and core platform features. He ensures system reliability, scalability, and smooth functionality in production environments.",
     portfolioUrl: "https://gerald-bitago-portflio-sxwj0ttp4y.vercel.app/#app"
-  },
-  {
-    name: "Joshua Yeung",
-    role: "Front-End Developer",
-    description: "Joshua specializes in building clean, responsive, and user-focused interfaces. He focuses on translating designs into polished front-end implementations that work seamlessly across devices, emphasizing layout consistency and accessibility.",
   }
 ];
 
